@@ -1,0 +1,60 @@
+/* RESPONSIVE STYLE START */
+@media all and (max-width: 991px) {
+	html {
+		font-size: 50%;
+	}
+	header#header .navigation_section .navigation_item ul li {
+		margin-left: .5rem;
+	}
+}
+@media all and (max-width: 767px) {
+	header#header .navigation_section .navigation_item {
+		display: none;
+	}
+	.mobile_menu span {
+		display: block;
+	}
+	header#header .navigation_section .navigation_item ul li {
+		margin-left: .8rem;
+	}
+	.slider_section .slider_article {
+		position: relative;
+		top: 0;
+		margin-bottom: 5rem;
+	}
+	.slider_section .slider_img {
+		transform: translate(14%, 0%);
+	}
+}
+@media all and (max-width: 575px) {
+	.slider_section .slider_article h1 {
+		font-size: 4rem;
+	}
+	.slider_section .slider_img {
+		transform: translate(0, 0%);
+		width: 90%;
+		margin: auto;
+	}
+	section#work .img_box {
+		display: block;
+		width: 59%;
+		margin: auto;
+	}
+	footer#footer .footer_content {
+		width: 70%;
+		margin: auto;
+	}
+	section#service .box {
+		width: 70%;
+		margin: auto;
+	}
+	section#work h2 {
+		font-size: 3rem;
+		margin: 0 auto 5rem auto;
+	}
+	section#service h2 {
+		font-size: 3rem;
+		margin: 0 auto 5rem auto;
+	}
+}
+/* RESPONSIVE STYLE END */
